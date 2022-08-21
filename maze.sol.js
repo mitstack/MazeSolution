@@ -1,3 +1,7 @@
+
+
+
+
 //input :  array of array i.e a maze 
 //for simplisity sake it should have same rows and columns 4 *4 
 
@@ -9,12 +13,18 @@ let maze=[[ 1, 0, 0, 0 ],
           [ 1, 0, 1, 1 ] ];
 let size = maze.length;
 
+
+
  
 /* This function mainly uses solveTheMaze()
     to solve the problem. It returns false if no
     path is possible, otherwise return true.*/
 function findThePath(maze)
 {
+
+    if(size>=100) {
+        return false;
+    }
     //inititaing the backtrackingArray array for backtracking and initializing all the elements as 0
     let backtrackingArray = new Array(size);
     for(let i=0;i<size;i++)
@@ -50,7 +60,7 @@ function solveTheMaze(maze,x,y,backtrackingArray)
               if (backtrackingArray[x][y] == 1)
                   return false;
             
-            // mark x, y as part of solution path
+            // mark x, y as part of solution in backtracking array
             backtrackingArray[x][y] = 1;
   
             /* Move forward in x direction */
@@ -82,3 +92,4 @@ function isPathExists(maze,x,y)
 
 let result = findThePath(maze);
 console.log(result);
+
