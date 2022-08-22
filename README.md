@@ -6,8 +6,8 @@ and moving in right, left and bottom direction only (need to implement upward).
 
 # Future Enhancements
 Todo:
-1. I will be implementing logic to move upward (Y+1) in Y-axis.
-2. This maze can be of any number of rows and columns (within specified limit to prevent stack overflow and array outofbound exceptions)
+- I will be implementing logic to move upward (Y+1) in Y-axis.
+- This maze can be of any number of rows and columns (within specified limit to prevent stack overflow and array outofbound exceptions)
 
 # How To Run the code
 - install node JS
