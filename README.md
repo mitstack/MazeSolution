@@ -7,8 +7,11 @@ and moving in right, left and bottom direction only (need to implement upward).
 Example: 4*4 array
 
 Input: [[1, 0, 1, 0],
+
         [1, 1, 1, 0],
+
         [0, 1, 0, 1],
+
         [0, 1, 1, 1]]
 
 Output: true 
