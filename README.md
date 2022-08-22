@@ -5,11 +5,14 @@ and moving in right, left and bottom direction only (need to implement upward).
 0's meaning path is blocked
 
 Example: 4*4 array
+
 Input: [[1, 0, 1, 0],
         [1, 1, 1, 0],
         [0, 1, 0, 1],
         [0, 1, 1, 1]]
+
 Output: true 
+
 
 # Future Enhancements
 Todo:
