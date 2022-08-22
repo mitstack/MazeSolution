@@ -23,13 +23,13 @@ Todo:
 - This maze can be of any number of rows and columns
 - Dockerize this app so that it can be run independently without worrying about any dependencies 
 
-# How To Run the code
+# How To Run The Code
 - install node JS
 - clone the repo or download the code
 - download dependencies via yarn or npm package manager (it is using jest for unit testing) CLI - yarn install 
 - CLI command to run unit tests : yarn run jest
 
-# unit testing coverage 
+# Unit Testing Coverage
 - Covered positive scenarios
 - Covered negative scenarios (try to break it in several ways :) by entering different number of rows and columns, cause infinite loop, randowm arrays, excercise all 4 paths)
 - Todo implementation scenarios should not crash the program. It should handle the exceptions gracefully for outofboundexceptuons and stack overflow exceptions 
