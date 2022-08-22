@@ -20,7 +20,7 @@ Output: true
 # Future Enhancements
 Todo:
 - I will be implementing logic to move upward (Y+1) in Y-axis.
-- This maze can be of any number of rows and columns (within specified limit to prevent stack overflow and array outofbound exceptions)
+- This maze can be of any number of rows and columns
 - Dockerize this app so that it can be run independently without worrying about any dependencies 
 
 # How To Run the code
@@ -32,5 +32,5 @@ Todo:
 # unit testing coverage 
 - Covered positive scenarios
 - Covered negative scenarios (try to break it in several ways :) by entering different number of rows and columns, cause infinite loop, randowm arrays, excercise all 4 paths)
-- Todo implementation scenarios should not crash the program. It should handle the exceptions gracefully 
+- Todo implementation scenarios should not crash the program. It should handle the exceptions gracefully for outofboundexceptuons and stack overflow exceptions 
 ![image](https://user-images.githubusercontent.com/98483366/185811319-87387810-26a7-458a-afc3-74dcdc5e7906.png)
