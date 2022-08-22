@@ -1,5 +1,5 @@
 # MazeSolution
-- This is an interesting maze to solve. For simplicity sake I am using same number of rows and columns
+- This is an interesting maze to solve to traverse from top left to bottom right. For simplicity sake I am using same number of rows and columns
 and moving in right, left and bottom direction only (need to implement upward).
 1's meaning path is open 
 0's meaning path is blocked
