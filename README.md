@@ -21,6 +21,7 @@ Output: true
 Todo:
 - I will be implementing logic to move upward (Y+1) in Y-axis.
 - This maze can be of any number of rows and columns (within specified limit to prevent stack overflow and array outofbound exceptions)
+- Dockerize this app so that it can be run independently without worrying about any dependencies 
 
 # How To Run the code
 - install node JS
